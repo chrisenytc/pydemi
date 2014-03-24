@@ -17,6 +17,20 @@ cd pydemi
 
 3º Install dependencies
 
+if you no have virtualenv installed. Install it.
+
+```bash
+sudo apt-get install python-virtualenv
+```
+
+```bash
+virtualenv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
 ```bash
 make install
 ```
