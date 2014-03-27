@@ -24,6 +24,8 @@ class Development():
     }
     ERRORS = {
         '500': 'Internal Server Error',
+        '503': 'Service Unavailable',
+        '400': 'Bad Request',
         '401': 'Bad Authentication. You do not have permission to access the API',
         '404': 'Not Found'
     }
